@@ -1,0 +1,243 @@
+.desktop-1,
+.desktop-1 * {
+  box-sizing: border-box;
+}
+.desktop-1 {
+  background: #ffffff;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-1 {
+  background: #d9d9d9;
+  border-radius: 10px;
+  width: 1360px;
+  height: 69px;
+  position: absolute;
+  left: 40px;
+  top: 10px;
+}
+.logo {
+  color: #1c1c1c;
+  text-align: left;
+  font: 400 20px "Inter", sans-serif;
+  position: absolute;
+  left: 66px;
+  top: 32px;
+}
+.login {
+  color: #1c1c1c;
+  text-align: left;
+  font: 400 20px "Inter", sans-serif;
+  position: absolute;
+  left: 1321px;
+  top: 32px;
+}
+.register {
+  color: #1c1c1c;
+  text-align: left;
+  font: 400 20px "Inter", sans-serif;
+  position: absolute;
+  left: 1233px;
+  top: 32px;
+}
+.about {
+  color: #1c1c1c;
+  text-align: left;
+  font: 400 20px "Inter", sans-serif;
+  position: absolute;
+  left: 1166px;
+  top: 32px;
+}
+.home {
+  color: #1c1c1c;
+  text-align: left;
+  font: 400 20px "Inter", sans-serif;
+  position: absolute;
+  left: 1100px;
+  top: 32px;
+}
+.line-1 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 924px;
+  height: 0px;
+  position: absolute;
+  left: calc(50% - 0px);
+  top: 89px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+.rectangle-4 {
+  background: #d9d9d9;
+  border-radius: 20px;
+  width: 640px;
+  height: 778px;
+  position: absolute;
+  left: 40px;
+  top: 162px;
+}
+.rectangle-15 {
+  background: #d9d9d9;
+  border-radius: 20px;
+  width: 640px;
+  height: 778px;
+  position: absolute;
+  left: 760px;
+  top: 162px;
+}
+.rectangle-5 {
+  background: #d9d9d9;
+  border-radius: 20px;
+  width: 640px;
+  height: 778px;
+  position: absolute;
+  left: 760px;
+  top: 162px;
+}
+.rectangle-6 {
+  background: #cb6060;
+  width: 582px;
+  height: 78px;
+  position: absolute;
+  left: 66px;
+  top: 182px;
+}
+.rectangle-8 {
+  background: #cb6060;
+  width: 414px;
+  height: 78px;
+  position: absolute;
+  left: 153px;
+  top: 287px;
+}
+.rectangle-16 {
+  background: #cb6060;
+  width: 414px;
+  height: 78px;
+  position: absolute;
+  left: 873px;
+  top: 287px;
+}
+.rectangle-9 {
+  background: #cb6060;
+  width: 414px;
+  height: 78px;
+  position: absolute;
+  left: 153px;
+  top: 380px;
+}
+.rectangle-17 {
+  background: #cb6060;
+  width: 414px;
+  height: 78px;
+  position: absolute;
+  left: 873px;
+  top: 380px;
+}
+.rectangle-10 {
+  background: #cb6060;
+  width: 414px;
+  height: 78px;
+  position: absolute;
+  left: 153px;
+  top: 473px;
+}
+.rectangle-18 {
+  background: #cb6060;
+  width: 414px;
+  height: 78px;
+  position: absolute;
+  left: 873px;
+  top: 473px;
+}
+.rectangle-11 {
+  background: #cb6060;
+  width: 414px;
+  height: 78px;
+  position: absolute;
+  left: 153px;
+  top: 566px;
+}
+.rectangle-19 {
+  background: #cb6060;
+  width: 414px;
+  height: 78px;
+  position: absolute;
+  left: 873px;
+  top: 566px;
+}
+.rectangle-12 {
+  background: #cb6060;
+  width: 414px;
+  height: 78px;
+  position: absolute;
+  left: 153px;
+  top: 659px;
+}
+.rectangle-20 {
+  background: #cb6060;
+  width: 414px;
+  height: 78px;
+  position: absolute;
+  left: 873px;
+  top: 659px;
+}
+.rectangle-13 {
+  background: #cb6060;
+  width: 414px;
+  height: 78px;
+  position: absolute;
+  left: 153px;
+  top: 752px;
+}
+.rectangle-21 {
+  background: #cb6060;
+  width: 414px;
+  height: 78px;
+  position: absolute;
+  left: 873px;
+  top: 752px;
+}
+.rectangle-14 {
+  background: #cb6060;
+  width: 414px;
+  height: 78px;
+  position: absolute;
+  left: 153px;
+  top: 845px;
+}
+.rectangle-22 {
+  background: #cb6060;
+  width: 414px;
+  height: 78px;
+  position: absolute;
+  left: 873px;
+  top: 845px;
+}
+.rectangle-7 {
+  background: #cb6060;
+  width: 582px;
+  height: 78px;
+  position: absolute;
+  left: 789px;
+  top: 182px;
+}
+.without-image {
+  color: #ffffff;
+  text-align: left;
+  font: 400 36px "Inter", sans-serif;
+  position: absolute;
+  left: 233px;
+  top: 199px;
+}
+.with-image {
+  color: #ffffff;
+  text-align: left;
+  font: 400 36px "Inter", sans-serif;
+  position: absolute;
+  left: 984px;
+  top: 199px;
+}

@@ -1,0 +1,142 @@
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .part1{
+    margin-left: 20px;
+  }
+  .part1,
+  .part2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .spacer {
+    flex-grow: 1;
+  }
+  
+  nav li {
+    display: block;
+  }
+  
+  nav li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav li a:hover {
+    background-color: #ddd;
+  }
+  
+
+  .all{
+    display: flex;
+    position: relative;
+  }
+  
+  .all a{
+    text-decoration: none;
+  }
+ 
+.leftrec{
+  background: #d9d9d9;
+  border-radius: 20px;
+  width: 640px;
+  height: 778px;
+  position: absolute;
+  left: 40px;
+  top: 162px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.rightrec{
+  background: #d9d9d9;
+  border-radius: 20px;
+  width: 640px;
+  height: 778px;
+  position: absolute;
+  left: calc(50%);
+  top: 162px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.leftrec ul,.rightrec ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100%;
+  gap: 10px;
+}
+
+.leftrec li,.rightrec li {
+  width: 100%; /* Adjust the width as per your requirement */
+  box-sizing: border-box;
+}
+
+.info-box{
+  display: flex;
+  min-width: 100%;
+  max-width: 400px;
+  height: 100px;
+  background-color: blue;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  box-shadow: 1 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+.info-box h3{
+  
+  color: white;
+ margin: 10px;
+}
+.info-box p{
+  color: white;
+  margin: 10px;
+}
+
+.info-box .l {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.info-box .r {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-box h2 {
+  color: white;
+  margin: 0;
+}
+.disabled-link {
+  pointer-events: none;
+  cursor: default;
+}

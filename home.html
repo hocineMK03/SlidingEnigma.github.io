@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sliding Enigma</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/home.css">
+<script src="js/coloring.js"></script>
+<script src="js/encodingtest.js"></script>
+<script src="js/decodingtest.js"></script>
+
+</head>
+<body onload="disableLinks()">
+    <header>
+        <nav>
+            <ul>
+              <div class="part1">
+                <li><a href="#">logo</a></li>
+                
+              </div>
+              <div class="spacer"></div>
+              <div class="part2">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Register</a></li>
+                <li><a href="#">Login</a></li>
+              </div>
+            </ul>
+          </nav>        
+    </header>
+   
+    
+
+      <div class="all">
+        <div class="leftrec">
+          <h2>without image</h2>
+          <ul>
+            <li>
+              <a href="game.html?columns=3&rows=3&which=left">
+              <div class="info-box">
+                
+                  <div class="r">
+                    <h2>1.</h2>
+                  </div>
+                  <div class="l">
+                    <h3>LEVEL 1</h3>
+                  <p>3*3</p>
+                  </div>
+                
+              </div>
+            </a>
+            </li>
+            <li>
+              <a href="game.html?columns=3&rows=4&which=left">
+              <div class="info-box">
+                
+                  <div class="r">
+                    <h2>2.</h2>
+                  </div>
+                  <div class="l">
+                    <h3>LEVEL 2</h3>
+                  <p>3*4</p>
+                  </div>
+                
+              </div>
+            </a>
+            </li>
+            <li>
+              <a href="game.html?columns=4&rows=4&which=left">
+              <div class="info-box">
+                
+                  <div class="r">
+                    <h2>3.</h2>
+                  </div>
+                  <div class="l">
+                    <h3>LEVEL 3</h3>
+                  <p>4*4</p>
+                  </div>
+                
+              </div>
+            </a>
+            </li>
+            <li>
+              <a href="game.html?columns=4&rows=5&which=left">
+              <div class="info-box">
+                
+                  <div class="r">
+                    <h2>4.</h2>
+                  </div>
+                  <div class="l">
+                    <h3>LEVEL 4</h3>
+                  <p>4*5</p>
+                  </div>
+                
+              </div>
+            </a>
+            </li>
+            <li>
+              <a href="game.html?columns=5&rows=5&which=left">
+              <div class="info-box">
+                
+                  <div class="r">
+                    <h2>5.</h2>
+                  </div>
+                  <div class="l">
+                    <h3>LEVEL 5</h3>
+                  <p>5*5</p>
+                  </div>
+                
+              </div>
+            </a>
+            </li>
+            
+            
+          </ul>
+        </div>
+        
+        <div class="rightrec">
+          <div class="k">
+            <h2>with image</h2>
+            <input type="file" name="img" id="img">
+          
+          </div>
+          <ul>
+            <li>
+              <a id="3*3" href="game.html?columns=3&rows=3&which=right">
+              <div class="info-box">
+                
+                  <div class="r">
+                    <h2>6.</h2>
+                  </div>
+                  <div class="l">
+                    <h3>LEVEL 1</h3>
+                  <p>3*3</p>
+                  </div>
+                
+              </div>
+            </a>
+            </li>
+            <li>
+              <a id="3*4" href="game.html?columns=4&rows=3&which=right">
+              <div class="info-box">
+                
+                  <div class="r">
+                    <h2>7.</h2>
+                  </div>
+                  <div class="l">
+                    <h3>LEVEL 2</h3>
+                  <p>3*4</p>
+                  </div>
+                
+              </div>
+            </a>
+            </li>
+            <li>
+              <a id="4*4" href="game.html?columns=4&rows=4&which=right">
+              <div class="info-box">
+                
+                  <div class="r">
+                    <h2>8.</h2>
+                  </div>
+                  <div class="l">
+                    <h3>LEVEL 3</h3>
+                  <p>4*4</p>
+                  </div>
+                
+              </div>
+            </a>
+            </li>
+            <li>
+              <a id="4*5" href="game.html?columns=4&rows=5&which=right">
+              <div class="info-box">
+                
+                  <div class="r">
+                    <h2>9.</h2>
+                  </div>
+                  <div class="l">
+                    <h3>LEVEL 4</h3>
+                  <p>4*5</p>
+                  </div>
+                
+              </div>
+            </a>
+            </li>
+            <li>
+              <a id="5*5" href="game.html?columns=5&rows=5&which=right">
+              <div class="info-box">
+                
+                  <div class="r">
+                    <h2>10.</h2>
+                  </div>
+                  <div class="l">
+                    <h3>LEVEL 5</h3>
+                  <p>5*5</p>
+                  </div>
+                
+              </div>
+            </a>
+            </li>
+          </ul>
+          
+        </div>
+        
+      </div>
+      
+
+
+     
+      <!-- <canvas id="myCanvas" width="400" height="400"></canvas>
+     -->
+<script>
+ 
+// Call the function when the page loads
+window.addEventListener("load", enableLinksIfEncodedMatrixExists);
+   var file ="";
+        let res1=[];
+        document.querySelector('#img').addEventListener("change",function(){
+           const input = document.getElementById('img');
+            file = this.files[0];
+           console.log(file);
+           if (file && file.type.startsWith("image/") ) {
+               const reader = new FileReader();
+               console.log("h");
+               reader.readAsDataURL(this.files[0]);
+               reader.onload = function(e) {
+                   
+                   const image = new Image();
+                   image.onload = function() {
+               console.log("image.onload event fired");
+               let res=generateMatrix(image);
+                              // Get the number of rows
+                let rows = res.length;
+                    
+                // Get the number of columns
+                let columns = res[0].length;
+                console.log("big matrix",rows,columns);
+                if((rows<150*4 || columns<150*4) ||(rows<150*4 && columns<150*4)){
+                  disableLinks();
+                  
+                  document.querySelector('#img').value = "";
+                  console.log("image is not big enough");
+                  // encodeAndDecode(res);
+
+                }
+                else{
+                  const encodedMatrix = sessionStorage.getItem("encodedmatrix");
+
+if (encodedMatrix !== null) {
+  // Item exists
+  sessionStorage.removeItem("encodedmatrix");
+
+}                 if(columns<750 || rows<750){
+  res1= matrixmodifier(res,4,4);
+}
+else{
+res1= matrixmodifier(res,5,5);
+}
+                  
+                  encodeAndDecode(res1);
+                  
+                  
+                  // let encoded=init(res1);
+                  
+                  // drawit(res1);
+                
+              
+                }
+               
+               
+              
+              
+           };
+           image.src = e.target.result;
+
+                  
+               };
+
+           }
+           else{
+               console.log("yes");
+               disableLinks();
+           }
+
+});
+function enableLinksIfEncodedMatrixExists() {
+  const encodedMatrix = sessionStorage.getItem("encodedmatrix");
+  if (encodedMatrix !== null && encodedMatrix !== "") {
+    enableLinks();
+  }
+}
+
+async function encodeAndDecode(res) {
+  disableLinks();
+
+  let encoded = init(res);
+  console.log("Encoded:", encoded);
+  console.log("waiting");
+  await new Promise(resolve => setTimeout(resolve, 1000));
+  
+  // let decoded = initdecode(encoded);
+   sessionStorage.setItem("encodedmatrix",encoded);
+   enableLinks();
+   
+}
+
+function enableLinks() {
+  const links = document.querySelectorAll('.rightrec a');
+  links.forEach(link => {
+    link.classList.remove('disabled-link');
+  });
+}
+
+
+        function disableLinks() {
+  const links = document.querySelectorAll('.rightrec a');
+  links.forEach(link => {
+    link.classList.add('disabled-link');
+  });
+}
+
+
+</script>
+</body>
+</html>
