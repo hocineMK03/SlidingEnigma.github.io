@@ -69,7 +69,7 @@ function matrixmodifier(mat,columns,rows){
 
 
 function drawit(matrix){
-  var canvas = document.getElementById('myCanvas');
+  var canvas = document.createElement('canvas');
   var ctx = canvas.getContext('2d');
   
   // Define the width and height of each pixel
