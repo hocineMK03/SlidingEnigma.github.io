@@ -317,7 +317,10 @@ moveit(xrow, xcolumn, yrow, ycolumn);
           mat[yrow][ycolumn] = lengofmat;
           createPuzzleBoard1();
           checkmatandwin();
-          changeinputs(xrow);
+          if(which=="right"){
+            changeinputs(xrow);
+          }
+          
         }
       }
     }
@@ -366,6 +369,13 @@ function init() {
   if(which=="left"){
     createMatrix(columns, rows);
     createPuzzleBoard();
+    const puzzleRows3 = document.querySelectorAll('#puzzle-board tr');
+  puzzleRows3.forEach(row => {
+    const rowInputs3 = row.querySelectorAll('input');
+    rowInputs3.forEach(input => {
+      input.style.color = 'black';
+    });
+  });
 
   }
   else if(which=="right"){
